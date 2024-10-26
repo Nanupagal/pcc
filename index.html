@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandey Coaching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Pandey Coaching</h2>
+            <nav>
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <section id="hero">
+                <h2>Achieve Excellence with Pandey Coaching</h2>
+                <p>Join the best coaching institute for academic success and personal growth.</p>
+                <button  onclick="showAlert()">Get Started</button>
+            </section>
+
+            <section id="about-courses">
+                <div class="content-box" id="about">
+                    <h2>About Us</h2>
+                    <p>Pandey Coaching is dedicated to empowering students with the knowledge and skills needed to succeed in their academic and professional journeys. Our focus is on creating an environment where students thrive and reach their highest potential.</p>
+                    <address>
+                        <strong>Location:</strong><br>
+                        Pandey Coachings, RZP-57, Sector-8 Dwarka,<br>
+                        Behind Sector 8 Telephone Exchange, Near Government School,<br>
+                        Vidyalaya Marg, Raj Nagar -II, Block P,<br>
+                        Raj Nagar Extension, Raj Nagar, Delhi, 110077
+                    </address>
+                </div>
+
+                <div class="content-box" id="courses">
+                    <h2>Our Courses</h2>
+                    <ul>
+                        <li><strong>Mathematics:</strong> Classes 6 to 12</li>
+                        <li><strong>Science:</strong> Physics, Chemistry, and Biology</li>
+                        <li><strong>Competitive Exams:</strong> JEE, NEET, Olympiads</li>
+                        <li><strong>English Communication:</strong> Personality Development</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+
+            <footer>
+                <p>&copy; 2024 Pandey Coaching. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
