@@ -58,6 +58,22 @@ body {
 .sidebar nav ul li a:hover {
     background-color: #34495E;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
 
 /* Hero Section */
 #about-hero {
